@@ -2,15 +2,18 @@
 
 ## Install using:
 
-### `npm install spinner`
+### `npm install mtm-spinner`
 or
-### `yarn add spinner`
+### `yarn add mtm-spinner`
 
 
-### `import Spinner from 'Spinner';`
+```
+import Spinner from 'mtm-spinner';
+```
 
-### 
-`<Spinner
+
+```
+<Spinner
     loaderTitle="Loading....."
     fontSize="50px"
     position="center"
@@ -18,6 +21,7 @@ or
     spinnerWidth="50px"
     spinnerHeight="50px"
     fontFamily="inherit"
-      />`      
+    />
+```  
 
 **Enjoy!**
