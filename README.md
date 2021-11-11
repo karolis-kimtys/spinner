@@ -6,12 +6,12 @@
 or
 ### `yarn add mtm-spinner`
 
-
+### Import
 ```
 import Spinner from 'mtm-spinner';
 ```
 
-
+### Use
 ```
 <Spinner
     loaderTitle="Loading....."
@@ -21,7 +21,7 @@ import Spinner from 'mtm-spinner';
     spinnerWidth="50px"
     spinnerHeight="50px"
     fontFamily="inherit"
-    />
+/>
 ```  
 
 **Enjoy!**
