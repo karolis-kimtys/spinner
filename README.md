@@ -23,10 +23,11 @@ import Spinner from 'mtm-spinner';
 />
 ```  
 
+### Result
+![Image](image.png)
+
 #### [NPM Package](https://www.npmjs.com/package/mtm-spinner)
 
 #### [GitHub](https://github.com/karolis-kimtys/spinner)
-
-
 
 **Enjoy!**
