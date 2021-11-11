@@ -23,8 +23,9 @@ import Spinner from 'mtm-spinner';
 />
 ```  
 
-[NPM Package](https://www.npmjs.com/package/mtm-spinner)
-[GitHub](https://github.com/karolis-kimtys/spinner)
+#### [NPM Package](https://www.npmjs.com/package/mtm-spinner)
+
+#### [GitHub](https://github.com/karolis-kimtys/spinner)
 
 
 
