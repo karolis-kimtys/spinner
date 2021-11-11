@@ -9,11 +9,11 @@ interface Props {
   loaderTitle?: string | number;
   display?: string;
   alignItems?: string;
-  fontSize?: string | undefined;
+  fontSize?: string;
   fontFamily?: string;
-  padding?: number;
+  padding?: string;
   margin?: string;
-  color?: string | undefined;
+  color?: string;
   textVisible: boolean;
   spinnerVisible: boolean;
 }
