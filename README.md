@@ -1,9 +1,9 @@
 # Simple Customizable React Spinner Component
 
-## Install using:
-### `npm install mtm-spinner`
+### Install using:
+#### `npm install mtm-spinner`
 or
-### `yarn add mtm-spinner`
+#### `yarn add mtm-spinner`
 
 ### Import
 ```
