@@ -13,7 +13,7 @@ import Spinner from 'mtm-spinner';
 ### Use
 ```
 <Spinner
-    loaderTitle="Loading....."
+    loaderTitle="Loading..."
     fontSize="50px"
     position="center"
     fontColor="blue"
@@ -22,5 +22,10 @@ import Spinner from 'mtm-spinner';
     fontFamily="inherit"
 />
 ```  
+
+[NPM Package](https://www.npmjs.com/package/mtm-spinner)
+[GitHub](https://github.com/karolis-kimtys/spinner)
+
+
 
 **Enjoy!**
