@@ -1,5 +1,6 @@
 {
   "name": "mtm-spinner",
+  "version": "1.1.10",
   "description": "Simple customizable React Spinner component",
   "author": "Karolis K",
   "keywords": [
@@ -19,7 +20,6 @@
     "type": "git",
     "url": "git+https://github.com/karolis-kimtys/spinner"
   },
-  "version": "1.1.6",
   "private": false,
   "dependencies": {
     "@babel/polyfill": "^7.12.1",

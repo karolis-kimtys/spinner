@@ -10,16 +10,19 @@ or
 import Spinner from 'mtm-spinner';
 ```
 
-### Use
+### Use (default props)
+#### Position selectors: "left", "center" or "right".
 ```
 <Spinner
-    loaderTitle="Loading..."
-    fontSize="50px"
-    position="center"
-    fontColor="blue"
-    spinnerWidth="50px"
-    spinnerHeight="50px"
+    textVisible={true}
+    spinnerVisible={true}
+    loaderTitle={'Loading...'}
+    position="center" 
+    fontSize="16px"
     fontFamily="inherit"
+    fontColor="black"
+    spinnerWidth="25px"
+    spinnerHeight="25px"
 />
 ```  
 
