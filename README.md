@@ -1,6 +1,6 @@
 # Simple Customizable React Spinner Component
-![NPM Downloads](https://img.shields.io/npm/dw/mtm-spinner)
 ![NPM Downloads](https://badgen.net/npm/dt/mtm-spinner)
+![NPM Downloads](https://badgen.net/npm/v/mtm-spinner)
 
 
 
