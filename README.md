@@ -1,6 +1,6 @@
 # Simple Customizable React Spinner Component
 ![NPM Downloads](https://img.shields.io/npm/dw/mtm-spinner)
-[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://github.com/karolis-kimtys/spinner/commits)
+[![GitHub latest commit](https://badgen.net/github/last-commit/Naereen/Strapdown.js)](https://github.com/karolis-kimtys/spinner/commit/main)
 
 
 [![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://github.com/karolis-kimtys/spinner/network)
