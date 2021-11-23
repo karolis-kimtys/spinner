@@ -4,6 +4,8 @@
 
 
 [![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://github.com/karolis-kimtys/spinner/network)
+[![GitHub forks](https://badgen.net/github/forks/Naereen/Strapdown.js/)](https://GitHub.com/Naereen/StrapDown.js/network/)
+
 
 
 ### Install using:
