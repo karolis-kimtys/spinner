@@ -1,6 +1,6 @@
 {
   "name": "mtm-spinner",
-  "version": "1.1.12",
+  "version": "1.2.22",
   "description": "Simple customizable React Spinner component",
   "author": "Karolis K",
   "keywords": [
@@ -33,6 +33,7 @@
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-scripts": "4.0.3",
+    "styled-components": "^5.3.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1"
   },
@@ -63,6 +64,7 @@
   "devDependencies": {
     "@babel/cli": "^7.16.0",
     "@babel/core": "^7.16.0",
-    "@babel/preset-env": "^7.16.0"
+    "@babel/preset-env": "^7.16.0",
+    "@types/styled-components": "^5.1.15"
   }
 }

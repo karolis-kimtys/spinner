@@ -1,4 +1,6 @@
 import React from 'react';
+import { keyframes } from 'styled-components';
+
 import spinner from './spinner.svg';
 
 interface Props {
@@ -48,8 +50,15 @@ export default function Spinner(props: Props) {
     color: props.fontColor || 'black',
   };
 
+  const rotation: any = keyframes`
+    to {
+      transform: rotate(360deg);
+    }
+  `;
+
   const spinnerStyle = {
     marginLeft: '5px',
+    animation: `rotation 1s steps(8, end) infinite`,
     width: props.spinnerWidth || '25px',
     height: props.spinnerHeight || '25px',
   };
