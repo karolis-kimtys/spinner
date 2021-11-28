@@ -30,6 +30,7 @@ Spinner.defaultProps = {
   fontColor: 'black',
   spinnerWidth: '25px',
   spinnerHeight: '25px',
+  margin: '0',
 };
 
 export default function Spinner(props: Props) {
@@ -46,7 +47,7 @@ export default function Spinner(props: Props) {
     fontSize: props.fontSize || '16px',
     fontFamily: props.fontFamily || 'inherit',
     padding: 0,
-    margin: '1em',
+    margin: props.margin || '1em',
     color: props.fontColor || 'black',
   };
 
@@ -57,7 +58,6 @@ export default function Spinner(props: Props) {
   `;
 
   const spinnerStyle = {
-    marginLeft: '5px',
     animation: `rotation 1s steps(8, end) infinite`,
     width: props.spinnerWidth || '25px',
     height: props.spinnerHeight || '25px',
