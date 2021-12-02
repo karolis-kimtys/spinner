@@ -1,5 +1,5 @@
 import React from 'react';
-import { keyframes } from 'styled-components';
+import styled, { keyframes } from 'styled-components';
 
 import spinner from './spinner.svg';
 
@@ -30,8 +30,8 @@ Spinner.defaultProps = {
   fontColor: 'black',
   spinnerWidth: '25px',
   spinnerHeight: '25px',
-  margin: '0',
-  padding: '0',
+  margin: '0px',
+  padding: '1em 0 1em 0',
 };
 
 export default function Spinner(props: Props) {
@@ -58,18 +58,17 @@ export default function Spinner(props: Props) {
     }
   `;
 
-  const spinnerStyle = {
-    animation: `rotation 1s steps(8, end) infinite`,
-    width: props.spinnerWidth || '25px',
-    height: props.spinnerHeight || '25px',
-  };
+  const SpinnerStyle = styled.img`
+    animation: ${rotation} 1s steps(8, end) infinite;
+    width: ${props.spinnerWidth};
+    height: ${props.spinnerHeight};
+    margin-left: 5px;
+  `;
 
   return (
     <div style={style}>
       {props.textVisible && props.loaderTitle}
-      {props.spinnerVisible && (
-        <img src={spinner} alt="" style={spinnerStyle} />
-      )}
+      {props.spinnerVisible && <SpinnerStyle src={spinner} alt="" />}
     </div>
   );
 }
