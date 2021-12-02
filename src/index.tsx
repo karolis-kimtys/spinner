@@ -28,8 +28,8 @@ Spinner.defaultProps = {
   fontSize: '16px',
   fontFamily: 'inherit',
   fontColor: 'black',
-  spinnerWidth: '25px',
-  spinnerHeight: '25px',
+  spinnerWidth: '20px',
+  spinnerHeight: '20px',
   margin: '0px',
   padding: '1em 0 1em 0',
 };
