@@ -31,6 +31,7 @@ Spinner.defaultProps = {
   spinnerWidth: '25px',
   spinnerHeight: '25px',
   margin: '0',
+  padding: '0',
 };
 
 export default function Spinner(props: Props) {
@@ -46,7 +47,7 @@ export default function Spinner(props: Props) {
     alignItems: 'center',
     fontSize: props.fontSize || '16px',
     fontFamily: props.fontFamily || 'inherit',
-    padding: 0,
+    padding: props.padding || '0.75em',
     margin: props.margin || '1em',
     color: props.fontColor || 'black',
   };
