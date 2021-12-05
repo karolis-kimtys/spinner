@@ -13,15 +13,15 @@
 A Customizable React Spinner/Loader component for your project.
 Below are instructions how to install and configure the component.
 
-### Install the package:
+### Install:
 #### `npm install mtm-spinner`
 
-### Import the package
+### Import:
 ```
 import Spinner from 'mtm-spinner';
 ```
 
-### Use the package with default properties:
+### Use (default props):
 ```
 <Spinner
     textVisible={true}
