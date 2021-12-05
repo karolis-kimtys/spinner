@@ -5,7 +5,7 @@
 ![Weekly Downloads](https://img.shields.io/npm/dw/mtm-spinner)
 ![Version](https://img.shields.io/npm/v/mtm-spinner)
 
-#### [NPM](https://www.npmjs.com/package/mtm-spinner) / #### [GitHub](https://github.com/karolis-kimtys/spinner)
+#### [NPM](https://www.npmjs.com/package/mtm-spinner) / [GitHub](https://github.com/karolis-kimtys/spinner)
 
 <!-- ### ![Image](image.png) -->
 ### ![GIF](image.gif)
