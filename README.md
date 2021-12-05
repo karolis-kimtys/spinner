@@ -5,24 +5,23 @@
 ![Weekly Downloads](https://img.shields.io/npm/dw/mtm-spinner)
 ![Version](https://img.shields.io/npm/v/mtm-spinner)
 
-#### [NPM](https://www.npmjs.com/package/mtm-spinner)
-
-#### [GitHub](https://github.com/karolis-kimtys/spinner)
+#### [NPM](https://www.npmjs.com/package/mtm-spinner) / #### [GitHub](https://github.com/karolis-kimtys/spinner)
 
 <!-- ### ![Image](image.png) -->
 ### ![GIF](image.gif)
 
-### Install using:
-#### `npm install mtm-spinner`
-or
-#### `yarn add mtm-spinner`
+A Customizable React Spinner/Loader component for your project.
+Below are instructions how to install and configure the component.
 
-### Import
+### Install the package:
+#### `npm install mtm-spinner`
+
+### Import the package
 ```
 import Spinner from 'mtm-spinner';
 ```
 
-### Default props
+### Use the package with default properties:
 ```
 <Spinner
     textVisible={true}
