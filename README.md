@@ -11,7 +11,7 @@
 ### ![GIF](image.gif)
 
 A Customizable React Spinner/Loader component for your project.
-Below are instructions how to install and configure the component.
+Below are instructions of how to install and configure the component.
 
 ### Install:
 #### `npm install mtm-spinner`
