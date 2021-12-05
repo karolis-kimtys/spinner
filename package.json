@@ -1,17 +1,17 @@
 {
   "name": "mtm-spinner",
-  "version": "1.2.44",
-  "description": "Simple customizable React Spinner component",
+  "version": "1.2.51",
+  "description": "Simple customizable React spinner component",
   "author": "Karolis K",
   "keywords": [
-    "react",
-    "components",
-    "spinner",
-    "loader",
-    "ui"
+    "React",
+    "TypeScript",
+    "Customizable",
+    "Spinner",
+    "Loader"
   ],
-  "main": "dist/index.js",
-  "module": "dist/index.js",
+  "main": "dist/index.tsx",
+  "module": "dist/index.tsx",
   "files": [
     "dist",
     "README.md"
