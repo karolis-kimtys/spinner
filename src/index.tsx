@@ -18,6 +18,10 @@ interface Props {
   color?: string;
   textVisible: boolean;
   spinnerVisible: boolean;
+  spinner: any;
+  rotationTime: string;
+  rotationSteps: string;
+  animationLength: string;
 }
 
 Spinner.defaultProps = {
@@ -32,6 +36,10 @@ Spinner.defaultProps = {
   spinnerHeight: '20px',
   margin: '0px',
   padding: '1em 0 1em 0',
+  spinner: spinner,
+  rotationTime: '1s',
+  rotationSteps: '8',
+  animationLength: 'infinite',
 };
 
 export default function Spinner(props: Props) {
@@ -59,7 +67,8 @@ export default function Spinner(props: Props) {
   `;
 
   const SpinnerStyle = styled.img`
-    animation: ${rotation} 1s steps(8, end) infinite;
+    animation: ${rotation} ${props.rotationTime} steps(${props.rotationSteps})
+      ${props.animationLength};
     width: ${props.spinnerWidth};
     height: ${props.spinnerHeight};
     margin-left: 5px;
@@ -68,7 +77,7 @@ export default function Spinner(props: Props) {
   return (
     <div style={style}>
       {props.textVisible && props.loaderTitle}
-      {props.spinnerVisible && <SpinnerStyle src={spinner} alt="" />}
+      {props.spinnerVisible && <SpinnerStyle src={props.spinner} alt="" />}
     </div>
   );
 }

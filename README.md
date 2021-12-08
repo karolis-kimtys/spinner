@@ -10,7 +10,7 @@
 <!-- ### ![Image](image.png) -->
 ### ![GIF](image.gif)
 
-A Customizable React Spinner/Loader component for your project.
+A Customizable React Spinner/Loader component with ability to add your custom .SVG spinner for your project.
 Below are instructions of how to install and configure the component.
 
 ### Install:
@@ -24,17 +24,21 @@ import Spinner from 'mtm-spinner';
 ### Use (default props):
 ```
 <Spinner
-    textVisible={true}
-    spinnerVisible={true}
-    loaderTitle={'Loading...'}
-    position="center" | "left" | "right"
-    fontSize="16px"
-    fontFamily="inherit"
-    fontColor="black"
-    spinnerWidth="20px"
-    spinnerHeight="20px"
-    margin="0px"
-    padding="1em 0 1em 0"
+    textVisible = {true}
+    spinnerVisible = {true}
+    loaderTitle = {'Loading...'}
+    position = "center" | "left" | "right"
+    fontSize = "16px"
+    fontFamily = "inherit"
+    fontColor = "black"
+    spinnerWidth = "20px"
+    spinnerHeight = "20px"
+    margin = "0px"
+    padding = "1em 0 1em 0"
+    spinner = {customSVG}
+    rotationTime = '1s'
+    rotationSteps = '8'
+    animationLength = 'infinite'
 />
 ```  
 
